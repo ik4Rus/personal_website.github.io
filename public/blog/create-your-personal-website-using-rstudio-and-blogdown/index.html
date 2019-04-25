@@ -209,6 +209,36 @@ git push
 
 <h1 id="standart-workflow-to-write-new-content">Standart workflow to write new content</h1>
 
+<p>Zum Abschluss wollen wir noch einen Blogeintrag gestalten. Dazu nutzen wir in RStudio <em>Addins &gt; BLOGDOWN &gt; New Post</em> und füllen die Felder aus. Wichtig ist dabei, dass wir ein .Rmarkdown file auswählen, da dieses uns anderes als das .rmd file auch das Einbinden von Titelbildern erlaubt. Mithilfe der Angabe der entsprechenden Subdirectory können wir z.B. auch einen neuen Eintrag füpr das portfolio einfügen. Die verfügbaren Subdirectories sind dabei die unter <em>content</em> gelisteten Ordner.</p>
+
+<p><img src="/blog/2019-04-25-create-your-website-using-rstudio-and-blogdown_files/new_blog.png" width="600px" /></p>
+
+<p>The confirmation creates the file <em>content/blog/date-name.rmarkdown</em>, which we can edit afterwards. The syntax is that of yaml files. At the beginning we can adjust the meta information by inserting a title picture. To make the code work we have to insert the corresponding image under <em>static/images/blog/yourpicture.jpg</em>.</p>
+
+<pre><code class="language-r">---
+title: Create your personal website using RStudio and blogdown
+author: Ingo Lange
+date: '2019-04-25'
+slug: create-your-personal-website-using-rstudio-and-blogdown
+categories:
+  - Website
+tags:
+  - GitHub
+  - Hugo
+  - RStudio
+  - Tutorial
+  - Web
+  - netlify
+image: images/blog/yourpicture.jpg
+---
+</code></pre>
+
+<p>The complete syntax is equivalent to writing a normal rmarkdown file and a cheatsheet can be found at <a href="https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf">https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf</a>. for example. The only special feature is that files always have to be stored in the static folder. For adding images the blogdown addin also offers <em>Insert Image</em>. This way the file is moved directly into the right folder and the corresponding code is inserted into the markdown.</p>
+
+<h1 id="closing-remarks">Closing Remarks</h1>
+
+<p>I wish you a lot of fun building your own website and hope the article has helped you. Building the website is like everything else - perseverance, curiosity and creativity lead to a great result in the end. Should you have any questions or comments, please feel free to contact me at any time.</p>
+
                 </div>
             </div>
         </div>
@@ -242,33 +272,30 @@ git push
                 <p class="copyright">Copyright:
                     <span>
                         <script>document.write(new Date().getFullYear())</script>
-                    </span> Design and Developed by
-                    <a href="http://www.Themefisher.com" target="_blank">Themefisher</a>.
-                    <br> Get More Bootstrap Template From Our
-                    <a href="https://themefisher.com/free-bootstrap-templates/" target="_blank">Store</a>
+                    </span> Ingo Lange
+                    <br> Developed with RStudios 
+                    <a href = https://github.com/rstudio/blogdown target="_blank">blogdown.</a>
+                    <br> Based on a 
+                    <a href="http://www.Themefisher.com" target="_blank">Themefisher</a>
+                    Hugo theme.
                 </p>
             </div>
             <div class="col-md-4 col-12">
                 <!-- Social Media -->
                 <ul class="social text-center text-md-right text-lg-right">
                     <li>
-                        <a href="#" class="facebook">
-                            <i class="ion-social-facebook"></i>
+                        <a href="mailto:lange.data.science@gmail.com" class="mail">
+                            <i class="ion-email"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="twitter">
-                            <i class="ion-social-twitter"></i>
+                        <a href="https://github.com/ik4Rus" class="github">
+                            <i class="ion-social-github"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="linkedin">
+                        <a href="https://www.linkedin.com/in/ingo-lange-0487aa140/" class="linkedin">
                             <i class="ion-social-linkedin"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="googleplus">
-                            <i class="ion-social-googleplus"></i>
                         </a>
                     </li>
                 </ul>

@@ -119,3 +119,33 @@ Now we can check at https://ingolange.netlify.com whether the changes have been 
 
 # Standart workflow to write new content 
 
+Zum Abschluss wollen wir noch einen Blogeintrag gestalten. Dazu nutzen wir in RStudio *Addins > BLOGDOWN > New Post* und füllen die Felder aus. Wichtig ist dabei, dass wir ein .Rmarkdown file auswählen, da dieses uns anderes als das .rmd file auch das Einbinden von Titelbildern erlaubt. Mithilfe der Angabe der entsprechenden Subdirectory können wir z.B. auch einen neuen Eintrag füpr das portfolio einfügen. Die verfügbaren Subdirectories sind dabei die unter *content* gelisteten Ordner. 
+
+<img src="/blog/2019-04-25-create-your-website-using-rstudio-and-blogdown_files/new_blog.png" width="600px" />
+
+The confirmation creates the file *content/blog/date-name.rmarkdown*, which we can edit afterwards. The syntax is that of yaml files. At the beginning we can adjust the meta information by inserting a title picture. To make the code work we have to insert the corresponding image under *static/images/blog/yourpicture.jpg*. 
+
+
+```r
+---
+title: Create your personal website using RStudio and blogdown
+author: Ingo Lange
+date: '2019-04-25'
+slug: create-your-personal-website-using-rstudio-and-blogdown
+categories:
+  - Website
+tags:
+  - GitHub
+  - Hugo
+  - RStudio
+  - Tutorial
+  - Web
+  - netlify
+image: images/blog/yourpicture.jpg
+---
+```
+
+The complete syntax is equivalent to writing a normal rmarkdown file and a cheatsheet can be found at https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf. for example. The only special feature is that files always have to be stored in the static folder. For adding images the blogdown addin also offers *Insert Image*. This way the file is moved directly into the right folder and the corresponding code is inserted into the markdown. 
+
+# Closing Remarks
+I wish you a lot of fun building your own website and hope the article has helped you. Building the website is like everything else - perseverance, curiosity and creativity lead to a great result in the end. Should you have any questions or comments, please feel free to contact me at any time. 

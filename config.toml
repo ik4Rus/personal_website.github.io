@@ -45,14 +45,18 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         enable  = true
         bgImage = "images/slider.jpg"
         heading = "HI, MY NAME IS INGO & I AM A"
-        description = "DURING PROJECTS FOR MULTIPLE FIRMS AND MY ACADEMIC RESEARCH, I'VE WORKED AS DATA SCIENTIST IN VARIOUS SECTORS USING A WIDE RANGE OF TOOLS AND APPROACHES. THIS SITE SHOWCASES SOME OF MY WORK AND ARTICLES."
+        description = "DURING PROJECTS FOR MULTIPLE FIRMS AND DURING MY ACADEMIC RESEARCH, I'VE WORKED AS DATA SCIENTIST IN VARIOUS SECTORS USING A WIDE RANGE OF TOOLS AND APPROACHES. THIS SITE SHOWCASES SOME OF MY WORK AND ARTICLES."
         btn     = true
         btnText = "Show me the github repo"
         btnURL  = "https://github.com/ik4Rus"
         [[params.banner.flipText]]
             title   = "DATA SCIENTIST"
         [[params.banner.flipText]]
-            title   = "ML ENTHUSIAST"
+            title   = "PH.D. STUDENT"
+        [[params.banner.flipText]]
+            title   = "SCHWÄBISCH"
+        [[params.banner.flipText]]
+            title   = "MACHINE LEARNING ENTHUSIAST"
         [[params.banner.flipText]]
             title   = "SKY DIVER"
 
@@ -60,19 +64,19 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     [params.about]
         enable  = true
         title   = "ABOUT ME"
-        content = """I am a data scientist with expertise in machine learning,natural language processing and time series 
+        content = """I am a data scientist with expertise in machine learning, natural language processing and time series 
         modeling. For my analysis I mainly use R and Python supported by Hadoop, github and –lab, Alteryx, SPSS Modeller,
-        Jenkins and many more. I gathered experience in different cloud services working for example wit Google Cloud Services
+        Jenkins and many more. I gathered experience in different cloud services working for example with Google Cloud Services
         or Amazon Web Services. To put it in a nutshell I love to solve challenging problems using various tools and all kind
         of data. I enjoy working in mixed team - the more variety and new ideas the better. <br>
         As a data science consultant I traveled Germany to help different clients to create impact using data. I built
         models in sectors like health insurance, retail or housing and supported clients building their own analytics
         capability and data science infrastructure. During my Ph.D. I work part-time for a online- and app-based platform
-        that offers a range of services like job, car or housing marketets. With more than XXX users per day there is a
+        that offers a range of services like job, car or housing markets. With more than 15 million users there is a
         great data base to create massive value add for the firm with our analysis.<br>
         During my Ph.D. at the Cologne Institute for Information Systems I focus on User Generated Data (UGC) of various
-        sources like retail reviews, social networks or blog articles. Beside extracting information based on the mostly
-        unstructured text data using Natural Language Processing methods, I work on time series models to predict the
+        sources like retail reviews, social networks or blog articles. Based on the extracting information using Natural 
+        Language Processing methods, I work on time series models to predict the
         future user opinions and needs."""
         image   = "images/about/about.jpg"
 
@@ -88,7 +92,9 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     [params.portfolio]
         enable  = true
         title   = "Latest Works"
-        subtitle= "Here you will find a short outline of my work projects as well as detailed descriptions of my academic work. All academic work is directly linked to the corresponding Github repositories and pushed changes are automatically updated so that the results are always up to date."
+        subtitle= """Here you will find a short outline of my professional experience as well as detailed descriptions of my academic work.
+                     Expecially all academic work is directly linked to the corresponding GitHub repositories, so pushed changes are automatically
+                     updated to ensure always up to date results."""
 
     # Feature Product Section
     [params.featureProduct]
