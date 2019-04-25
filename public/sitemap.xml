@@ -3,71 +3,105 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/blog/</loc>
-    <lastmod>2018-07-15T12:32:37+06:00</lastmod>
+    <loc>/categories/</loc>
+    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/blog/a-new-year-a-new-posibility/</loc>
-    <lastmod>2018-07-15T12:29:40+06:00</lastmod>
+    <loc>/plog/create-your-website-using-rstudio-and-blogdown/</loc>
+    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/github/</loc>
+    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/hugo/</loc>
+    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/plog/</loc>
+    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/rstudio/</loc>
+    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2018-07-15T12:29:40+06:00</lastmod>
+    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tutorial/</loc>
+    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/web/</loc>
+    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/website/</loc>
+    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-07-15T12:29:40+06:00</lastmod>
+    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/inspiration/</loc>
-    <lastmod>2018-07-15T12:29:40+06:00</lastmod>
+    <loc>/tags/netlify/</loc>
+    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/motivation/</loc>
-    <lastmod>2018-07-15T12:29:40+06:00</lastmod>
+    <loc>/blog/create-your-personal-website-using-rstudio-and-blogdown/</loc>
+    <lastmod>2019-04-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/create-your-website-using-rstudio-and-blogdown/</loc>
+    <lastmod>2019-04-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/create-your-website-using-rstudio-and-blogdown/</loc>
+    <lastmod>2019-04-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2019-04-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/blog/building-an-online-audience/</loc>
-    <lastmod>2018-07-15T12:27:38+06:00</lastmod>
+    <loc>/post/thisisatest/</loc>
+    <lastmod>2019-04-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/internet/</loc>
-    <lastmod>2018-07-15T12:27:38+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/tech/</loc>
-    <lastmod>2018-07-15T12:27:38+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/blog/space-shouldnt-be-the-final-frontier/</loc>
-    <lastmod>2018-07-15T12:21:58+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/business/</loc>
-    <lastmod>2018-07-15T12:21:58+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/people/</loc>
-    <lastmod>2018-07-15T12:21:58+06:00</lastmod>
-    <priority>0</priority>
+    <loc>/blog/</loc>
+    <lastmod>2018-07-15T12:32:37+06:00</lastmod>
   </url>
   
   <url>
@@ -124,22 +158,6 @@
   <url>
     <loc>/portfolio/dew-drop/</loc>
     <lastmod>2018-07-12T16:53:54+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/installation/</loc>
-    <lastmod>2018-07-08T12:22:40+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/install/</loc>
-    <lastmod>2018-07-08T12:22:40+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>

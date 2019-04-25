@@ -1,41 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Timer | Responsive Multipurpose Bootstrap Hugo Template</title>
+    <title>Website: Ingo Lange</title>
     <link>/</link>
-    <description>Recent content on Timer | Responsive Multipurpose Bootstrap Hugo Template</description>
+    <description>Recent content on Website: Ingo Lange</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Jul 2018 12:29:40 +0600</lastBuildDate>
+    <lastBuildDate>Tue, 30 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>A New Year a New Posibility</title>
-      <link>/blog/a-new-year-a-new-posibility/</link>
-      <pubDate>Sun, 15 Jul 2018 12:29:40 +0600</pubDate>
+      <title>Create your website using RStudio and blogdown</title>
+      <link>/plog/create-your-website-using-rstudio-and-blogdown/</link>
+      <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/blog/a-new-year-a-new-posibility/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas sit expedita, iusto repellendus cumque, officia architecto consequatur illo fuga eum sed ut autem eos voluptas. Nemo, a, rem! Atque quisquam aperiam eaque tenetur autem, soluta itaque omnis. Minus nesciunt, sint, animi illum quo ab voluptate esse delectus unde maiores iure, quasi a suscipit ipsam aliquid voluptatem. Perspiciatis eveniet, pariatur illum aut cum dolor neque consequatur error aliquid facilis in quasi temporibus assumenda tempore, doloremque autem saepe enim nihil.</description>
+      <guid>/plog/create-your-website-using-rstudio-and-blogdown/</guid>
+      <description>Create your own website Website are a fantastic way to represent yourself and your work. Especially in the field of data science they are a great way to present your portfolio and a great addition to GitHub repositories. In this article we will build our personal website on ourselves using RStudio and the package blogdown, deploy it and link it to GitHub so that it updates itself everytime we push new code.</description>
     </item>
     
     <item>
-      <title>Building an Online Audience</title>
-      <link>/blog/building-an-online-audience/</link>
-      <pubDate>Sun, 15 Jul 2018 12:27:38 +0600</pubDate>
+      <title>Create your personal website using RStudio and blogdown</title>
+      <link>/blog/create-your-personal-website-using-rstudio-and-blogdown/</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/blog/building-an-online-audience/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas sit expedita, iusto repellendus cumque, officia architecto consequatur illo fuga eum sed ut autem eos voluptas. Nemo, a, rem! Atque quisquam aperiam eaque tenetur autem, soluta itaque omnis. Minus nesciunt, sint, animi illum quo ab voluptate esse delectus unde maiores iure, quasi a suscipit ipsam aliquid voluptatem. Perspiciatis eveniet, pariatur illum aut cum dolor neque consequatur error aliquid facilis in quasi temporibus assumenda tempore, doloremque autem saepe enim nihil.</description>
+      <guid>/blog/create-your-personal-website-using-rstudio-and-blogdown/</guid>
+      <description>Create your own website Website are a fantastic way to represent yourself and your work. Especially in the field of data science they are a great way to present your portfolio and a great addition to GitHub repositories. In this article we will build our personal website on ourselves using RStudio and the package blogdown, deploy it and link it to GitHub so that it updates itself everytime we push new code.</description>
     </item>
     
     <item>
-      <title>Space Shouldn&#39;t Be the Final Frontier</title>
-      <link>/blog/space-shouldnt-be-the-final-frontier/</link>
-      <pubDate>Sun, 15 Jul 2018 12:21:58 +0600</pubDate>
+      <title>Create your website using RStudio and blogdown</title>
+      <link>/blog/create-your-website-using-rstudio-and-blogdown/</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/blog/space-shouldnt-be-the-final-frontier/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas sit expedita, iusto repellendus cumque, officia architecto consequatur illo fuga eum sed ut autem eos voluptas. Nemo, a, rem! Atque quisquam aperiam eaque tenetur autem, soluta itaque omnis. Minus nesciunt, sint, animi illum quo ab voluptate esse delectus unde maiores iure, quasi a suscipit ipsam aliquid voluptatem. Perspiciatis eveniet, pariatur illum aut cum dolor neque consequatur error aliquid facilis in quasi temporibus assumenda tempore, doloremque autem saepe enim nihil.</description>
+      <guid>/blog/create-your-website-using-rstudio-and-blogdown/</guid>
+      <description>Create your own website Website are a fantastic way to represent yourself and your work. Especially in the field of data science they are a great way to present your portfolio and a great addition to GitHub repositories. In this article we will build our personal website on ourselves using RStudio and the package blogdown, deploy it and link it to GitHub so that it updates itself everytime we push new code.</description>
+    </item>
+    
+    <item>
+      <title>Create your website using RStudio and blogdown</title>
+      <link>/post/create-your-website-using-rstudio-and-blogdown/</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/create-your-website-using-rstudio-and-blogdown/</guid>
+      <description>1 Create your own website 2 Create the project 3 Creating the GitHub Repository 4 Build the website and deploy it 5 Change the landing page 6 Standart workflow to write new content   1 Create your own website Website are a fantastic way to represent yourself and your work. Especially in the field of data science they are a great way to present your portfolio and a great addition to GitHub repositories.</description>
+    </item>
+    
+    <item>
+      <title>thisisatest</title>
+      <link>/post/thisisatest/</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/thisisatest/</guid>
+      <description>hallo hallo ss</description>
     </item>
     
     <item>
@@ -90,18 +108,6 @@
       
       <guid>/portfolio/dew-drop/</guid>
       <description>Consectur in Bibendum Totam rem aperiam eaque ipsa quae illo inventore veritatis et quasi architebetea.vitae dicta sunt explicabo. nemo enim ipsam volup as tatem quia voluptassit aspernatur.aut odit aut fugit sed quia consequuntur magni dolores eo ratione voluptatem.sequi nesciunt neque porro quisquam est dolorem ipsum quia dolor amet consectetur adipisci velit. lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
-    </item>
-    
-    <item>
-      <title>How To Setup Timer Hugo</title>
-      <link>/blog/installation/</link>
-      <pubDate>Sun, 08 Jul 2018 12:22:40 +0600</pubDate>
-      
-      <guid>/blog/installation/</guid>
-      <description>Install this template by following those simple steps: STEP-1 : Hugo installation Check this link below for install hugo on your computer. hugo install documentation
-STEP-2 : Create your project Hugo provides a new command to create a new website.
-hugo new site &amp;lt;new_project&amp;gt;  STEP-3 : Install the theme Run this command
-hugo new site timer-hugo  and then go to the themes folder inside of timer-hugo folder. You can also use this command cd timer-hugo/themes for going to this folder.</description>
     </item>
     
   </channel>

@@ -1,9 +1,8 @@
 baseURL = "/"
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 languageCode = "en-us"
-title = "Timer | Responsive Multipurpose Bootstrap Hugo Template"
+title = "Website: Ingo Lange"
 theme = "timer-hugo"
-
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 # We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
 
 # Site Menus
@@ -36,39 +35,52 @@ theme = "timer-hugo"
     logo = "images/logo.png"
     dateFormat = "6 January 2006"
     # Meta data
-    description = "Airspace Hugo theme"
-    author = "Themefisher"
+    description = "Personal website of Ingo Lange"
+    author = "Ingo Lange"
     # Google Analitycs
-    googleAnalitycsID = "Your ID"
+    googleAnalitycsID = "tbd"
 
     # Banner Section
     [params.banner]
         enable  = true
         bgImage = "images/slider.jpg"
-        heading = "HI, MY NAME IS JONATHON & I AM A"
-        description = "WITH 10 YEARS EXPERIENCE, I'VE OCCUPIED MANY ROLES INCLUDING DIGITAL DESIGN DIRECTOR, WEB DESIGNER AND DEVELOPER. THIS SITE SHOWCASES SOME OF MY WORK."
+        heading = "HI, MY NAME IS INGO & I AM A"
+        description = "DURING PROJECTS FOR MULTIPLE FIRMS AND MY ACADEMIC RESEARCH, I'VE WORKED AS DATA SCIENTIST IN VARIOUS SECTORS USING A WIDE RANGE OF TOOLS AND APPROACHES. THIS SITE SHOWCASES SOME OF MY WORK AND ARTICLES."
         btn     = true
-        btnText = "Download More"
-        btnURL  = "https://themefisher.com/"
+        btnText = "Show me the github repo"
+        btnURL  = "https://github.com/ik4Rus"
         [[params.banner.flipText]]
-            title   = "DESIGNER"
+            title   = "DATA SCIENTIST"
         [[params.banner.flipText]]
-            title   = "DEVELOPER"
+            title   = "ML ENTHUSIAST"
         [[params.banner.flipText]]
-            title   = "FATHER"
+            title   = "SKY DIVER"
 
     # Homepage About Section
     [params.about]
         enable  = true
         title   = "ABOUT ME"
-        content = "Hello, I’m a UI/UX Designer & Front End Developer from Victoria, Australia. I hold a master degree of Web Design from the World University.And scrambled it to make a type specimen book. It has survived not only five centuries. <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, adipisci voluptatum repudiandae, natus impedit repellat aut officia illum at assumenda iusto reiciendis placeat. Temporibus, vero."
+        content = """I am a data scientist with expertise in machine learning,natural language processing and time series 
+        modeling. For my analysis I mainly use R and Python supported by Hadoop, github and –lab, Alteryx, SPSS Modeller,
+        Jenkins and many more. I gathered experience in different cloud services working for example wit Google Cloud Services
+        or Amazon Web Services. To put it in a nutshell I love to solve challenging problems using various tools and all kind
+        of data. I enjoy working in mixed team - the more variety and new ideas the better. <br>
+        As a data science consultant I traveled Germany to help different clients to create impact using data. I built
+        models in sectors like health insurance, retail or housing and supported clients building their own analytics
+        capability and data science infrastructure. During my Ph.D. I work part-time for a online- and app-based platform
+        that offers a range of services like job, car or housing marketets. With more than XXX users per day there is a
+        great data base to create massive value add for the firm with our analysis.<br>
+        During my Ph.D. at the Cologne Institute for Information Systems I focus on User Generated Data (UGC) of various
+        sources like retail reviews, social networks or blog articles. Beside extracting information based on the mostly
+        unstructured text data using Natural Language Processing methods, I work on time series models to predict the
+        future user opinions and needs."""
         image   = "images/about/about.jpg"
 
     # Call to Action
     [params.cta]
         enable  = true
-        title   = "SO WHAT YOU THINK ?"
-        content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
+        title   = "INTERESTED? - ALWAYS HAPPY TO CHAT."
+        content = "Feel free to contact me regarding my work, academic research, published code and articles. I’m always happy to discuss and exchange new ideas."
         btnText = "Contact with me"
         btnURL  = "/contact"
 
@@ -76,6 +88,10 @@ theme = "timer-hugo"
     [params.portfolio]
         enable  = true
         title   = "Latest Works"
-        subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
+        subtitle= "Here you will find a short outline of my work projects as well as detailed descriptions of my academic work. All academic work is directly linked to the corresponding Github repositories and pushed changes are automatically updated so that the results are always up to date."
 
-    
+    # Feature Product Section
+    [params.featureProduct]
+        enable  = false
+        title   = "SOME OF OUR FEATURES WORKS"
+        subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere <br> tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."

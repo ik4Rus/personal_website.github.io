@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Website: Ingo Lange</title>
+    <link>/tags/hugo/</link>
+    <description>Recent content in Hugo on Website: Ingo Lange</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Create your website using RStudio and blogdown</title>
+      <link>/plog/create-your-website-using-rstudio-and-blogdown/</link>
+      <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/plog/create-your-website-using-rstudio-and-blogdown/</guid>
+      <description>Create your own website Website are a fantastic way to represent yourself and your work. Especially in the field of data science they are a great way to present your portfolio and a great addition to GitHub repositories. In this article we will build our personal website on ourselves using RStudio and the package blogdown, deploy it and link it to GitHub so that it updates itself everytime we push new code.</description>
+    </item>
+    
+    <item>
+      <title>Create your personal website using RStudio and blogdown</title>
+      <link>/blog/create-your-personal-website-using-rstudio-and-blogdown/</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/create-your-personal-website-using-rstudio-and-blogdown/</guid>
+      <description>Create your own website Website are a fantastic way to represent yourself and your work. Especially in the field of data science they are a great way to present your portfolio and a great addition to GitHub repositories. In this article we will build our personal website on ourselves using RStudio and the package blogdown, deploy it and link it to GitHub so that it updates itself everytime we push new code.</description>
+    </item>
+    
+    <item>
+      <title>Create your website using RStudio and blogdown</title>
+      <link>/blog/create-your-website-using-rstudio-and-blogdown/</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/create-your-website-using-rstudio-and-blogdown/</guid>
+      <description>Create your own website Website are a fantastic way to represent yourself and your work. Especially in the field of data science they are a great way to present your portfolio and a great addition to GitHub repositories. In this article we will build our personal website on ourselves using RStudio and the package blogdown, deploy it and link it to GitHub so that it updates itself everytime we push new code.</description>
+    </item>
+    
+    <item>
+      <title>Create your website using RStudio and blogdown</title>
+      <link>/post/create-your-website-using-rstudio-and-blogdown/</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/create-your-website-using-rstudio-and-blogdown/</guid>
+      <description>1 Create your own website 2 Create the project 3 Creating the GitHub Repository 4 Build the website and deploy it 5 Change the landing page 6 Standart workflow to write new content   1 Create your own website Website are a fantastic way to represent yourself and your work. Especially in the field of data science they are a great way to present your portfolio and a great addition to GitHub repositories.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-us">
+<head>
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+    <meta name="description" content="Personal website of Ingo Lange">
+    <meta name="author" content="Ingo Lange">
+    <meta name="generator" content="Hugo 0.55.3" />
+    
+    <!-- Mobile Specific Metas -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Create your personal website using RStudio and blogdown</title>
+    <link rel="icon" href="/images/favicon.ico">
+
+    <!-- Twitter Bootstrs CSS -->
+    <link rel="stylesheet" href="/plugins/bootstrap/bootstrap.min.css">
+    <!-- Ionicons Fonts Css -->
+    <link rel="stylesheet" href="/plugins/ionicons/ionicons.min.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="/plugins/animate-css/animate.css">
+    <!-- Hero area slider css-->
+    <link rel="stylesheet" href="/plugins/slider/slider.css">
+    <!-- slick slider -->
+    <link rel="stylesheet" href="/plugins/slick/slick.css">
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="/plugins/facncybox/jquery.fancybox.css">
+    <!-- hover -->
+    <link rel="stylesheet" href="/plugins/hover/hover-min.css">
+    <!-- template main css file -->
+    
+    <link rel="stylesheet" href="/css/style.min.css" integrity="" media="screen">
+</head>
+
+<body>
+
+<section class="top-bar animated-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="/">
+                        <img src="/images/logo.png" alt="logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">Home</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="/about">About</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="/service">Service</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="/gallery">Gallery</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="/blog">Blog</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="/contact">Contact</a>
+                            </li>
+                            
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="global-page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h2>Create your personal website using RStudio and blogdown</h2>
+                    <div class="portfolio-meta">
+                        <span>Thursday, Apr 25, 2019</span>|
+                        <span> Tags:
+                            GitHub, Hugo, RStudio, Tutorial, Web, netlify
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="single-post">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                
+                <div class="post-img">
+                    <img class="img-fluid" alt="" src="/images/blog/2019-04-25-create-your-website-using-rstudio-and-blogdown.jpg">
+                </div>
+                
+                <div class="post-content">
+                    
+
+<h1 id="create-your-own-website">Create your own website</h1>
+
+<p>Website are a fantastic way to represent yourself and your work. Especially in the field of data science they are a great way to present your portfolio and a great addition to GitHub repositories. In this article we will build our personal website on ourselves using RStudio and the package blogdown, deploy it and link it to GitHub so that it updates itself everytime we push new code.</p>
+
+<p>For a detailed description of this approach and primarily blogdown, read the book of the package (<a href="https://bookdown.org/yihui/blogdown/">https://bookdown.org/yihui/blogdown/</a>) by Yihui Xie, the leading developer.</p>
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<p>To start we only need a current version (minimum 1.2.13) of RStudio as well as a GitHub account. Furthermore we need the packages blogdown, which we install if it is not available yet.</p>
+
+<pre><code class="language-r">needed_packages &lt;- c(&quot;blogdown&quot;)
+new.packages &lt;- needed_packages[!(needed_packages %in% installed.packages()[,&quot;Package&quot;])]
+if(length(new.packages)) install.packages(new.packages)
+</code></pre>
+
+<h1 id="create-the-project">Create the project</h1>
+
+<p>Next we think about which theme we want to use. A good overview of existing free Hugo themes can be found at <a href="https://themes.gohugo.io">https://themes.gohugo.io</a>. My advice is to take the time to test some themes and find the one that suits you. In particular you should click through the demo and reflect whether you can adapt the page to your wishes without much effort.</p>
+
+<p><img src="/blog/2019-04-25-create-your-website-using-rstudio-and-blogdown_files/hugo_website.png" width="1200px" /></p>
+
+<p>For this article we choose the theme timer on which also this website is based. If we select the theme timer on the website and go to Download, we get to the GitHub repository on which the theme is based. We copy the repository name <code>themefisher/timer-hugo</code>. Next we create a new project under File &gt; New Project &gt; New Directory &gt; Website using blogdown in R Studio. As as Hugo theme we use the copied repository name and choose without sample blog posts.</p>
+
+<p><img src="/blog/2019-04-25-create-your-website-using-rstudio-and-blogdown_files/new_project.png" width="400px" /></p>
+
+<p>After we have built the package, we should have been created next to the project file personalwebsite.Rproj, many more files and folders. What these files mean and how we can change them will be explained later on.</p>
+
+<p><img src="/blog/2019-04-25-create-your-website-using-rstudio-and-blogdown_files/file_structure.png" width="400px" /></p>
+
+<h1 id="creating-the-github-repository">Creating the GitHub Repository</h1>
+
+<p>After we created at the project and it is open, we need to activate version control to be able to interact with GitHub. To do this, we select RStudio from the menu <em>Tools &gt; Version Control &gt; Project Setup&hellip; &gt; Git/SVN</em> and select <em>Git</em> as <em>Version control system</em>. After the session has restarted, version control is activated for this project. We then commit the entire project once. To do this we switch to the terminal, which is located in the tab next to the console. Alternatively we can open it via the menu under *Tools &gt; Terminal &gt; New Terminal *.</p>
+
+<p><img src="/blog/2019-04-25-create-your-website-using-rstudio-and-blogdown_files/terminal.png" width="400px" /></p>
+
+<p>Now we enter the following code:</p>
+
+<pre><code>git status
+git add .
+git commit -m &quot;Build website based on timer theme&quot;
+</code></pre>
+
+<p>With the first commands we check the status and see that all files are untracked. For this reason we add all files to the staging area with <code>git add .</code> and finally commit them with the third command.</p>
+
+<p>Next we&rsquo;ll create a new repository after we log into GitHub. This is done using the plus symbol on the top right corner.</p>
+
+<p><img src="/blog/2019-04-25-create-your-website-using-rstudio-and-blogdown_files/new_repo_plus.png" width="200px" /></p>
+
+<p>After we name the new repository <code>personalwebsite</code> and enter a short description, we select <em>create repository</em>: A new repository is born.</p>
+
+<p><img src="/blog/2019-04-25-create-your-website-using-rstudio-and-blogdown_files/naming_new_repo.png" width="600px" /></p>
+
+<p>After the creation of the repository, GitHub already suggests the code, which we will immediately use to push the created website. Wir wechseln also wieder zu RStudio und dort ins Terminal und geben den folgenden Code ein:</p>
+
+<pre><code>git remote add origin https://github.com/ik4Rus/personal_website.github.io.git
+git push -u origin master
+</code></pre>
+
+<p>With the first command we point to our newly created github repository, with the second we push all our local commits into this github repository. If we now update the github website with our repository, we should see all our local files online.</p>
+
+<h1 id="build-the-website-and-deploy-it">Build the website and deploy it</h1>
+
+<p>Der nächste Schritt ist die Website tatsächlich zu erzeugen und sich anzusehen. Dazu öffnen wir die Datein <em>config.toml</em> und ändern die base URL zu &ldquo;/&rdquo;. Darüber hinaus fügen wir einen neue Zeile ein, um insbesondere die R spezifischen Files zu ignorieren.</p>
+
+<pre><code>baseURL = &quot;/&quot;
+ignoreFiles = [&quot;\\.Rmd$&quot;, &quot;\\.Rmarkdown$&quot;, &quot;_files$&quot;, &quot;_cache$&quot;]
+</code></pre>
+
+<p>To build an actual website from the stored information, we use the blogdown command <code>blogdown::build_site()</code>. A local version of the result can be viewed with <code>blogdown::serve_site()</code>. Alternatively we choose <em>Addins &gt; BLOGDOWN &gt; Serve Site</em> in RStudio. This will open a browser that displays the website locally. The information that is displayed is stored under <em>public</em>. To make the change also available on github, we push the latest modifications:</p>
+
+<pre><code>git add . 
+git commit -m &quot;Build site and update config.toml&quot;
+git push
+</code></pre>
+
+<p>Before we start to look at the content of the website, we want to publish it online. We go to the website <a href="https://www.netlify.com">https://www.netlify.com</a> and log in with our github account. Next we can deploy a page of GitHub under <em>Sites</em> using <em>new sites from github</em>. All we have to do is select our repository personalwebsite. After a short time ( Site deploy in progress ) a green link appears on the Overview page where we can find our website. So that the website is not published using this cryptic name, we can change it in netlify. For this purpose we choose the button <em>Site Settings</em> under <em>Overview</em> and find the possibility to change the name under General and Site information. After I&rsquo;ve changed the name to ingolange, we can always find the latest version of my website at <a href="https://ingolange.netlify.com">https://ingolange.netlify.com</a>.</p>
+
+<h1 id="change-the-landing-page">Change the landing page</h1>
+
+<p>After we have published our website online, we can adapt our landing page. Therefore we open the file <em>config.toml</em> and edit the page according to our needs. In particular we can insert our personal information under <code>[params]</code>. For example we can adjust the text in the header with <code>heading = &quot;HI, MY NAME IS YOURNAME &amp; I AM A&quot;</code>. We could also link our GitHub page directly under the header using <code>btnText = &quot;GitHub Repos&quot;</code> and <code>btnURL = &quot;yourgithublink&quot;</code>. I would recommend you to go through everything line by line and adjust it to your preferences. After our changes we use our standard workflow again to publish our latest changes:</p>
+
+<pre><code class="language-r">blogdown::build_site()
+blogdown::serve_site()
+</code></pre>
+
+<p>After we have made sure that all changes are displayed as desired, we push our changes in the terminal.</p>
+
+<pre><code>git add . 
+git commit -m &quot;Adjust landing page&quot;
+git push
+</code></pre>
+
+<p>Now we can check at <a href="https://ingolange.netlify.com">https://ingolange.netlify.com</a> whether the changes have been implemented as desired.</p>
+
+<h1 id="standart-workflow-to-write-new-content">Standart workflow to write new content</h1>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Call To Action Section Start -->
+<section id="call-to-action">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">INTERESTED? - ALWAYS HAPPY TO CHAT.</h1>
+                    <p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">Feel free to contact me regarding my work, academic research, published code and articles. I’m always happy to discuss and exchange new ideas.</p>
+                    <a href="/contact" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration="500ms">Contact with me</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- Call To Action Section End -->
+
+
+<!-- Footer Section Start -->
+<footer id="footer">
+    <div class="container">
+        <div class="row content-justify-between">
+            <div class="col-md-8 col-12 text-center text-lg-left text-md-left">
+                <p class="copyright">Copyright:
+                    <span>
+                        <script>document.write(new Date().getFullYear())</script>
+                    </span> Design and Developed by
+                    <a href="http://www.Themefisher.com" target="_blank">Themefisher</a>.
+                    <br> Get More Bootstrap Template From Our
+                    <a href="https://themefisher.com/free-bootstrap-templates/" target="_blank">Store</a>
+                </p>
+            </div>
+            <div class="col-md-4 col-12">
+                <!-- Social Media -->
+                <ul class="social text-center text-md-right text-lg-right">
+                    <li>
+                        <a href="#" class="facebook">
+                            <i class="ion-social-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="twitter">
+                            <i class="ion-social-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="linkedin">
+                            <i class="ion-social-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="googleplus">
+                            <i class="ion-social-googleplus"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer section end -->
+
+<!-- jquery -->
+<script src="/plugins/jQurey/jquery.min.js"></script>
+<!-- Form Validation -->
+<script src="/plugins/form-validation/jquery.form.js"></script>
+<script src="/plugins/form-validation/jquery.validate.min.js"></script>
+<!-- slick slider -->
+<script src="/plugins/slick/slick.min.js"></script>
+<!-- bootstrap js -->
+<script src="/plugins/bootstrap/bootstrap.min.js"></script>
+<!-- wow js -->
+<script src="/plugins/wow-js/wow.min.js"></script>
+<!-- slider js -->
+<script src="/plugins/slider/slider.js"></script>
+<!-- Fancybox -->
+<script src="/plugins/facncybox/jquery.fancybox.js"></script>
+<!-- template main js -->
+
+<script src="/js/script.min.js"></script>
+<!-- google analitycs -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'tbd', 'auto');
+    ga('send', 'pageview');
+</script>
+</body>
+
+</html>
