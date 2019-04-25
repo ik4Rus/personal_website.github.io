@@ -121,7 +121,7 @@ Now we can check at https://ingolange.netlify.com whether the changes have been 
 
 Zum Abschluss wollen wir noch einen Blogeintrag gestalten. Dazu nutzen wir in RStudio *Addins > BLOGDOWN > New Post* und füllen die Felder aus. Wichtig ist dabei, dass wir ein .Rmarkdown file auswählen, da dieses uns anderes als das .rmd file auch das Einbinden von Titelbildern erlaubt. Mithilfe der Angabe der entsprechenden Subdirectory können wir z.B. auch einen neuen Eintrag füpr das portfolio einfügen. Die verfügbaren Subdirectories sind dabei die unter *content* gelisteten Ordner. 
 
-<img src="/blog/2019-04-25-create-your-website-using-rstudio-and-blogdown_files/new_blog.png" width="600px" />
+<img src="/blog/2019-04-25-create-your-website-using-rstudio-and-blogdown_files/new_blog.png" width="300px" />
 
 The confirmation creates the file *content/blog/date-name.rmarkdown*, which we can edit afterwards. The syntax is that of yaml files. At the beginning we can adjust the meta information by inserting a title picture. To make the code work we have to insert the corresponding image under *static/images/blog/yourpicture.jpg*. 
 

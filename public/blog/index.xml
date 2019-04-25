@@ -20,14 +20,5 @@
       <description>Create your own website Website are a fantastic way to represent yourself and your work. Especially in the field of data science they are a great way to present your portfolio and a great addition to GitHub repositories. In this article we will build our personal website on ourselves using RStudio and the package blogdown, deploy it and link it to GitHub so that it updates itself everytime we push new code.</description>
     </item>
     
-    <item>
-      <title>Our first blog article</title>
-      <link>/blog/our-first-blog-article/</link>
-      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/our-first-blog-article/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>

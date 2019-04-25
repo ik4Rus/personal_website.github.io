@@ -131,7 +131,7 @@ Now we can check at https://ingolange.netlify.com whether the changes have been 
 
 Zum Abschluss wollen wir noch einen Blogeintrag gestalten. Dazu nutzen wir in RStudio *Addins > BLOGDOWN > New Post* und füllen die Felder aus. Wichtig ist dabei, dass wir ein .Rmarkdown file auswählen, da dieses uns anderes als das .rmd file auch das Einbinden von Titelbildern erlaubt. Mithilfe der Angabe der entsprechenden Subdirectory können wir z.B. auch einen neuen Eintrag füpr das portfolio einfügen. Die verfügbaren Subdirectories sind dabei die unter *content* gelisteten Ordner. 
 
-```{r, out.width = "600px",echo=FALSE}
+```{r, out.width = "300px",echo=FALSE}
 knitr::include_graphics("/blog/2019-04-25-create-your-website-using-rstudio-and-blogdown_files/new_blog.png")
 ```
 
