@@ -4,72 +4,7 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/plog/create-your-website-using-rstudio-and-blogdown/</loc>
-    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/github/</loc>
-    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/hugo/</loc>
-    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/plog/</loc>
-    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/rstudio/</loc>
-    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/tutorial/</loc>
-    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/web/</loc>
-    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/website/</loc>
-    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/netlify/</loc>
-    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -79,24 +14,57 @@
   </url>
   
   <url>
-    <loc>/blog/create-your-website-using-rstudio-and-blogdown/</loc>
-    <lastmod>2019-04-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/create-your-website-using-rstudio-and-blogdown/</loc>
-    <lastmod>2019-04-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
+    <loc>/tags/github/</loc>
     <lastmod>2019-04-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/thisisatest/</loc>
+    <loc>/tags/hugo/</loc>
     <lastmod>2019-04-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/rstudio/</loc>
+    <lastmod>2019-04-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-04-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tutorial/</loc>
+    <lastmod>2019-04-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/web/</loc>
+    <lastmod>2019-04-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/website/</loc>
+    <lastmod>2019-04-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-04-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/netlify/</loc>
+    <lastmod>2019-04-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
